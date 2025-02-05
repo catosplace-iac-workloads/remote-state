@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "adrs@0.2.9": {
+      "last_modified": "2025-01-19T08:16:51Z",
+      "resolved": "github:NixOS/nixpkgs/50165c4f7eb48ce82bd063e1fb8047a0f515f8ce#adrs",
+      "source": "devbox-search",
+      "version": "0.2.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rqkn7j0srwxyi8q7xa56x5h637llh4mq-adrs-0.2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rqkn7j0srwxyi8q7xa56x5h637llh4mq-adrs-0.2.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b0dsg1635v1732cv791xgwpgxqdyig8q-adrs-0.2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b0dsg1635v1732cv791xgwpgxqdyig8q-adrs-0.2.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ba39gd5rr4n505q3vf88y97gzakcpszi-adrs-0.2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ba39gd5rr4n505q3vf88y97gzakcpszi-adrs-0.2.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jyaxc2dmxgi8aacyykmmrlvwx3argi99-adrs-0.2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jyaxc2dmxgi8aacyykmmrlvwx3argi99-adrs-0.2.9"
+        }
+      }
+    },
     "git@2.47.1": {
       "last_modified": "2025-01-27T20:31:03Z",
       "resolved": "github:NixOS/nixpkgs/f898cbfddfab52593da301a397a17d0af801bbc3#git",
